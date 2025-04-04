@@ -12,7 +12,7 @@ git clone https://github.com/nifm-gin/RF_current_from_MRI.git
 
 You will need to add the `code` subdirectory to the python path below. Make note of that directory. To find the exact directory to add, you can run
 ```shell script
-echo `pwd`/rf_current_from_mri/python/code
+echo `pwd`/RF_current_from_MRI/python/code
 ```
 in the same directory where you performed the `git clone` command above.
 
