@@ -161,8 +161,7 @@ if do_plot
     subplot(2,1,1);
     plot(flip_angles1, real(afi_sim(:,1)), 'b'); 
     hold on; 
-    plot(data_loaded_real.flip_angles1, data_loaded_real.real_afi_sim(:,1),'r');
-    % plot(flip_angles1, afi_theory(:,1),'r'); 
+    plot(flip_angles1, afi_theory(:,1),'r'); 
     plot(flip_angles1, imag(afi_sim(:,1)), 'g');  % should be zero, plot to check
     ylabel('AFI S_1')
     xlabel('Flip angle [deg]')
@@ -172,8 +171,7 @@ if do_plot
     subplot(2,1,2);
     plot(flip_angles1, real(afi_sim(:,2)), 'b'); 
     hold on; 
-    plot(data_loaded_real.flip_angles1, data_loaded_real.real_afi_sim(:,2),'r');
-    % plot(flip_angles1, afi_theory(:,2),'r'); 
+    plot(flip_angles1, afi_theory(:,2),'r'); 
     plot(flip_angles1, imag(afi_sim(:,2)), 'g');  % should be zero, plot to check
     ylabel('AFI S_2')
     xlabel('Flip angle [deg]')
