@@ -16,7 +16,13 @@ echo `pwd`/rf_current_from_mri/python/code
 ```
 in the same directory where you performed the `git clone` command above.
 
-Define the environment variable RF_CURRENT_FROM_MRI_DATA to point to the data directory for this project. Alternatively, you can create a symbolic link in your home, called "rf_current_from_mri_data" and pointing to the desired directory.
+Define the environment variable RF_CURRENT_FROM_MRI_DATA to point to the data directory for this project.
+To find the directory with provided test data and set the environnement variable:
+```
+echo `pwd`RF_current_from_MRI/python/data
+export RF_CURRENT_FROM_MRI_DATA="/path/to/data"
+```
+Alternatively, you can create a symbolic link in your home, called "rf_current_from_mri_data" and pointing to the desired directory.
 
 #### Basic installation for Python 3.11
 

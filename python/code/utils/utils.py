@@ -1,6 +1,17 @@
 import numpy as np
 from os.path import exists
 from scipy.io import loadmat
+import os
+
+
+def get_data_directory():
+    data_dir = os.getenv('RF_CURRENT_FROM_MRI_DATA')
+    if data_dir is None:
+        home_dir = os.getenv('HOME')
+        data_dir = os.path.join(home_dir, "rf_current_from_mri_data")
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir)
+    return data_dir
 
 
 def get_transpose_vector(dimensions_in: list, dimensions_out: list):

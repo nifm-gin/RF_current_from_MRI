@@ -4,7 +4,7 @@ from model.pulse_sequence import (
     PulseSequence,
 )
 from fit_parameters_methods import fit_parameters
-from utils.utils import condition_signal, ProcessingOptions, load_slice_profile_dict
+from utils.utils import condition_signal, ProcessingOptions, load_slice_profile_dict, get_data_directory
 from utils.plotting import plot_patch, plot_compare, plot_compare_interface
 import nibabel as nib
 import matplotlib.pyplot as plt
@@ -692,7 +692,8 @@ def current_from_acquired_data(input_files, center_coordinates):
     return
 
 
-data_dir = os.path.abspath(os.path.join("..", "python", "data"))
+data_dir = os.path.join(get_data_directory())
+print(data_dir)
 
 # Copper wire position  1
 current_from_acquired_data(
