@@ -1,4 +1,4 @@
-# Code associated to the article *Assessing radiofrequency safety of active implants by measuring induced radiofrequency currents using MRI*
+# Code associated with the article *Assessing radiofrequency safety of active implants by measuring induced radiofrequency currents using MRI*
 The context of use of this code is in the area of MRI safety for active implants. This code corresponds to the data processing of a proposed method to better individualize MRI exposure for wire-like implant carriers. For more details, see the article (not published yet).
 This repository contains 2 parts. The first one is dedicated to the RF current fitting from MRI signals. The second is used to build the dictionary of MRI signals needed to fit the current from signal acquired with given sequence-dependent parameters.
 
