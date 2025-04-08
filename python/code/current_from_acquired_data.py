@@ -779,8 +779,7 @@ current_from_acquired_data(
 # current_from_acquired_data(
 #     [data_dir + '/DBS_lead/38-01-WIPdahdrAFI1_45_2_69_3_23_7_2_60_quadrature_new_opti.nii',  # noqa
 #      data_dir + '/DBS_lead/39-01-WIPdahdrAFI2_21_9_39_0_26_5_7_12_quadrature_new_opti.nii'],  # noqa
-#     [53.5, 68.5, 0.5, 53.7, 67.5, 10.5])
-# # simulated copper wire parallel to B0
+#     [53.5, 68.5, 0.5, 53.7, 67.5, 10.5])# # simulated copper wire parallel to B0
 # current_from_acquired_data(
 #     [data_dir + '/simulated_copper_wire/01_sequence_1_da_hdr_AFI_new_opti_straight_wire.nii',  # noqa
 #      data_dir + '/simulated_copper_wire/02_sequence_2_da_hdr_AFI_new_opti_straight_wire.nii'],  # noqa
